@@ -35,7 +35,7 @@ public class Complex {
     }
 
     public boolean isReal(){
-        return Math.abs(imag - 0.0) <= EPSILON;
+        return Math.abs(imag - 0.0) <= EPSILON; // using hint from comparing doubes in Lab Spec
     }
 
     public boolean isImaginary(){
