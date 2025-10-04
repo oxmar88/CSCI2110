@@ -36,7 +36,6 @@ public class Field {
         return height;
     }
 
-
     public String toString(){
         return "[x=" + xPos + ",y=" + yPos + ",w=" + width + ",h=" + height +"]";
     }
