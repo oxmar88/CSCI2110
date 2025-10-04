@@ -8,7 +8,8 @@
 * The Demo class contains the main method for running the soccer simulation.
 * It creates a field, ball, and two players. Each player takes 10 random kicks,
 * and the program displays the ball’s position and whether the ball was reflected for all 20 kicks.
-* */
+*/
+
 import java.util.Random;
 
 public class Demo {

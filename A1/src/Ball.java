@@ -7,7 +7,8 @@
  * Description:
  * The Ball class stores the ball’s position on the field.
  * It provides getter/setter methods and a method to print its coordinates.
- * */
+ */
+
 public class Ball {
     private double bx,by;
 

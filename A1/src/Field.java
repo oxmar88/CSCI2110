@@ -7,7 +7,8 @@
  * Description:
  * The Field class defines the boundaries of the playing field.
  * I also additionally added getter methods for the field’s position and size for easier use.
- * */
+ */
+
 public class Field {
     private double xPos, yPos,width,height;
 

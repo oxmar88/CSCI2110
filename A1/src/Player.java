@@ -7,7 +7,8 @@
  * Description:
  *The Player class represents a soccer player that can kick a ball within a field.
  *The kick method calculates the new ball position and determines if it was reflected/ if its within the field bounds.
- * */
+ */
+
 public class Player {
     String name;
 
