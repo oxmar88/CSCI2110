@@ -1,0 +1,90 @@
+__Exercise 1 sample runs:__
+
+Sample 1:
+
+Enter circle center (x,y) and radius: 5.0 5.0 10.0
+Enter a point (x,y): 2.0 3.0
+Enter a rectangle (xpos ypos width height): 10.0 10.0 50.0 40.0
+
+Circle[center=(5.0, 5.0), radius=10.0]
+Point (2.0, 3.0) contained in circle? true
+Rectangle[xpos=10.0, ypos=10.0, width=50.0, height=40.0]
+Rectangle contained in circle? false
+
+
+Sample 2:
+
+Enter circle center (x,y) and radius: 30.0 20.0 5.0
+Enter a point (x,y): 60.0 10.0
+Enter a rectangle (xpos ypos width height): 10.0 70.0 10.0 40.0
+
+Circle[center=(30.0, 20.0), radius=5.0]
+Point (60.0, 10.0) contained in circle? false
+Rectangle[xpos=10.0, ypos=70.0, width=10.0, height=40.0]
+Rectangle contained in circle? false
+
+
+Sample 3:
+
+
+
+__Exercise 2 sample runs:__
+
+Sample 1:
+
+Enter complex number 1 (real imag) : 3.0 4.0
+Enter complex number 2 (real imag) : 1.0 -2.0
+
+Number 1 is (3.0 + 4.0i)
+(3.0 + 4.0i) is NOT a pure real number
+(3.0 + 4.0i) is NOT a pure imaginary real number
+
+Number 2 is (1.0 + -2.0i)
+(1.0 + -2.0i) is NOT a pure real number
+(1.0 + -2.0i) is NOT a pure imaginary real number
+
+The magnitude of (3.0 + 4.0i) is 5.0
+The magnitude of (1.0 + -2.0i) is 2.23606797749979
+(3.0 + 4.0i) + (1.0 + -2.0i) is (4.0 + 2.0i)
+(3.0 + 4.0i) - (1.0 + -2.0i) is (2.0 + 6.0i)
+(3.0 + 4.0i) * (1.0 + -2.0i) is (11.0 + -2.0i)
+
+
+Sample 2:
+
+Enter complex number 1 (real imag) : 6.0 9.0
+Enter complex number 2 (real imag) : 2.0 1.0
+
+Number 1 is (6.0 + 9.0i)
+(6.0 + 9.0i) is NOT a pure real number
+(6.0 + 9.0i) is NOT a pure imaginary real number
+
+Number 2 is (2.0 + 1.0i)
+(2.0 + 1.0i) is NOT a pure real number
+(2.0 + 1.0i) is NOT a pure imaginary real number
+
+The magnitude of (6.0 + 9.0i) is 10.816653826391969
+The magnitude of (2.0 + 1.0i) is 2.23606797749979
+(6.0 + 9.0i) + (2.0 + 1.0i) is (8.0 + 10.0i)
+(6.0 + 9.0i) - (2.0 + 1.0i) is (4.0 + 8.0i)
+(6.0 + 9.0i) * (2.0 + 1.0i) is (3.0 + 24.0i)
+
+
+Sample 3:
+
+Enter complex number 1 (real imag) : 5.0 2.0
+Enter complex number 2 (real imag) : 1.0 1.0
+
+Number 1 is (5.0 + 2.0i)
+(5.0 + 2.0i) is NOT a pure real number
+(5.0 + 2.0i) is NOT a pure imaginary real number
+
+Number 2 is (1.0 + 1.0i)
+(1.0 + 1.0i) is NOT a pure real number
+(1.0 + 1.0i) is NOT a pure imaginary real number
+
+The magnitude of (5.0 + 2.0i) is 5.385164807134504
+The magnitude of (1.0 + 1.0i) is 1.4142135623730951
+(5.0 + 2.0i) + (1.0 + 1.0i) is (6.0 + 3.0i)
+(5.0 + 2.0i) - (1.0 + 1.0i) is (4.0 + 1.0i)
+(5.0 + 2.0i) * (1.0 + 1.0i) is (3.0 + 7.0i)
