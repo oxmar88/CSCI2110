@@ -1,3 +1,6 @@
+// Name: Omar Elsayed
+// Banner ID: B00993452
+// Lab 1 – CSCI 2110 Fall 2025
 public class Rectangle {
     private double xpos,ypos,width,height;
 

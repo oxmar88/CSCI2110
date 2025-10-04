@@ -1,3 +1,6 @@
+// Name: Omar Elsayed
+// Banner ID: B00993452
+// Lab 1 – CSCI 2110 Fall 2025
 import java.util.Scanner;
 
 public class ComplexTest {

@@ -1,3 +1,6 @@
+// Name: Omar Elsayed
+// Banner ID: B00993452
+// Lab 1 – CSCI 2110 Fall 2025
 public class Complex {
     private double real, imag;
     private static final double EPSILON = 1e-8; // Epsilon constant to be used throughout methods and classes
