@@ -1,0 +1,89 @@
+Sample Run Output:
+
+Player 1: Player Omar
+Player 2: Player Srini
+Field: [x=0.0,y=0.0,w=500.0,h=400.0]
+Ball is at:  (100.00,200.00)
+
+kick 1: Player Omar kicks the ball a distance of 251.94 pixels and at an angle of 222.73 degrees.
+Ball is at:  (100.00,29.04)
+Reflected = true
+
+kick 2: Player Omar kicks the ball a distance of 267.58 pixels and at an angle of 97.06 degrees.
+Ball is at:  (67.10,294.58)
+Reflected = false
+
+kick 3: Player Omar kicks the ball a distance of 196.10 pixels and at an angle of 30.84 degrees.
+Ball is at:  (235.48,395.10)
+Reflected = false
+
+kick 4: Player Omar kicks the ball a distance of 378.17 pixels and at an angle of 257.86 degrees.
+Ball is at:  (155.98,25.38)
+Reflected = false
+
+kick 5: Player Omar kicks the ball a distance of 449.03 pixels and at an angle of 269.74 degrees.
+Ball is at:  (153.98,25.38)
+Reflected = true
+
+kick 6: Player Omar kicks the ball a distance of 151.11 pixels and at an angle of 350.33 degrees.
+Ball is at:  (302.94,0.00)
+Reflected = false
+
+kick 7: Player Omar kicks the ball a distance of 472.92 pixels and at an angle of 352.48 degrees.
+Ball is at:  (302.94,0.00)
+Reflected = true
+
+kick 8: Player Omar kicks the ball a distance of 278.04 pixels and at an angle of 19.46 degrees.
+Ball is at:  (302.94,92.61)
+Reflected = true
+
+kick 9: Player Omar kicks the ball a distance of 415.12 pixels and at an angle of 234.93 degrees.
+Ball is at:  (64.42,92.61)
+Reflected = true
+
+kick 10: Player Omar kicks the ball a distance of 85.27 pixels and at an angle of 294.44 degrees.
+Ball is at:  (99.70,14.98)
+Reflected = false
+
+NEXT PLAYERS TURN
+
+kick 1: Player Srini kicks the ball a distance of 423.40 pixels and an angle of 78.51 degrees.
+Ball is at:  (184.08,14.98)
+Reflected = true
+
+kick 2: Player Srini kicks the ball a distance of 147.11 pixels and an angle of 306.91 degrees.
+Ball is at:  (272.43,14.98)
+Reflected = true
+
+kick 3: Player Srini kicks the ball a distance of 68.53 pixels and an angle of 167.47 degrees.
+Ball is at:  (205.54,29.86)
+Reflected = false
+
+kick 4: Player Srini kicks the ball a distance of 212.80 pixels and an angle of 244.54 degrees.
+Ball is at:  (114.06,29.86)
+Reflected = true
+
+kick 5: Player Srini kicks the ball a distance of 460.56 pixels and an angle of 138.06 degrees.
+Ball is at:  (114.06,337.66)
+Reflected = true
+
+kick 6: Player Srini kicks the ball a distance of 133.42 pixels and an angle of 316.30 degrees.
+Ball is at:  (210.53,245.49)
+Reflected = false
+
+kick 7: Player Srini kicks the ball a distance of 380.48 pixels and an angle of 112.54 degrees.
+Ball is at:  (64.68,245.49)
+Reflected = true
+
+kick 8: Player Srini kicks the ball a distance of 342.91 pixels and an angle of 161.90 degrees.
+Ball is at:  (64.68,352.01)
+Reflected = true
+
+kick 9: Player Srini kicks the ball a distance of 373.99 pixels and an angle of 157.87 degrees.
+Ball is at:  (64.68,352.01)
+Reflected = true
+
+kick 10: Player Srini kicks the ball a distance of 455.46 pixels and an angle of 345.37 degrees.
+Ball is at:  (64.68,236.96)
+Reflected = true
+

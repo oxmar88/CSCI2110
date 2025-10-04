@@ -1,3 +1,13 @@
+/*
+ *Author: Omar Elsayed (B00993452)
+ * Course: CSCI 2110 - Data Structures
+ * Assignment: Assignment 1 - Soccer Simulation
+ * Date: October 4, 2025
+ *
+ * Description:
+ *The Player class represents a soccer player that can kick a ball within a field.
+ *The kick method calculates the new ball position and determines if it was reflected/ if its within the field bounds.
+ * */
 public class Player {
     String name;
 
@@ -10,7 +20,6 @@ public class Player {
     }
 
     public boolean kick (Field f, Ball b, double d, double r) {
-        //This code assumes our ball starts at the bottom left corner of the screen
         boolean reflected = false;
 
         // using getter methods to get x and y coordinates of ball passed in the kick method

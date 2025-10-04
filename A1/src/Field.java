@@ -1,3 +1,13 @@
+/*
+ *Author: Omar Elsayed (B00993452)
+ * Course: CSCI 2110 - Data Structures
+ * Assignment: Assignment 1 - Soccer Simulation
+ * Date: October 4, 2025
+ *
+ * Description:
+ * The Field class defines the boundaries of the playing field.
+ * I also additionally added getter methods for the field’s position and size for easier use.
+ * */
 public class Field {
     private double xPos, yPos,width,height;
 
@@ -27,7 +37,7 @@ public class Field {
 
 
     public String toString(){
-        return "xPos: " + xPos + ", yPos: " + yPos + ", width: " + width + ", height: " + height;
+        return "[x=" + xPos + ",y=" + yPos + ",w=" + width + ",h=" + height +"]";
     }
 
 }
