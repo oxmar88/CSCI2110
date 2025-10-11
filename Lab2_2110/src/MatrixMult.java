@@ -83,10 +83,10 @@ public class MatrixMult {
 
         //YOUR WORK STARTS HERE
 
-        for (int i = 0; i < a.length; i++)
-            for (int j = 0; j < a.length; j++)
+        for (int i = 0; i < a.length; i++) // loops through matrix A rows
+            for (int j = 0; j < a.length; j++) // to loop through matrix B columns
                 for (int k = 0; k < a.length; k++)
-                    resultMatrix[i][j] += a[i][k] * b[k][j];
+                    resultMatrix[i][j] += a[i][k] * b[k][j]; // multiplying A's rows with B's cols as tasked
         return resultMatrix;
 
     }

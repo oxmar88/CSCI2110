@@ -36,7 +36,7 @@ public class Prime {
         for(int i = 2 ; ;i++){ // infinite for loop to keep counting up our prime number (can be stopped with break statement)
             boolean isPrime = true; // set initially to true as 2 is a prime number
 
-            // checking if our number i is prime or not
+            // checking if our number i is prime or not if so increment our counter
             for(int j = 2; j < i; j++){
                 if(i%j ==0){
                     isPrime = false;
@@ -53,7 +53,7 @@ public class Prime {
             */
 
             if(primeCounter == p){
-                return i;
+                return i; // returning the value of the desired prime number
             }
         }
 

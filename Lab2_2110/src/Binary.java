@@ -15,6 +15,7 @@ public class Binary {
         System.out.print("Enter a positive integer: ");
         int num = scanner.nextInt();
 
+        //calculating runtime of generateBinary method
         long startTime = System.currentTimeMillis();
         generateBinary(num);
         long endTime = System.currentTimeMillis();
@@ -27,7 +28,7 @@ public class Binary {
 
     public static void generateBinary(int n){
         for (int i = 0; i < Math.pow(2, n); i++) {
-            Integer.toBinaryString(i);
+            Integer.toBinaryString(i); // uses the built-in method but does not print or store it as required
         }
     }
 }
