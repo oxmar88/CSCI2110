@@ -1,6 +1,7 @@
 import java.util.*;
 
 /*
+Omar Elsayed (B00993452)
 Binary Number Generation
 This class tests the code for Exercise3. It calls a method that accepts a positive integer n
 and generates binary numbers between 0 and 2^n -1. The main method prints information about

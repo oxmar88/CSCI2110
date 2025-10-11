@@ -1,4 +1,5 @@
 /*
+Omar Elsayed (B00993452)
 Prime Solution
 This class tests the code for Exercise1. It calls a method to
 calculate the nth prime and prints information about running time.
