@@ -26,6 +26,14 @@ Rectangle contained in circle? false
 
 Sample 3:
 
+Enter circle center (x,y) and radius: 10.0 30.0 60.0
+Enter a point (x,y): 50.0 30.0
+Enter a rectangle (xpos ypos width height): 5.0 3.0 10.0 4.0
+
+Circle[center=(10.0, 30.0), radius=60.0]
+Point (50.0, 30.0) contained in circle? true
+Rectangle[xpos=5.0, ypos=3.0, width=10.0, height=4.0]
+Rectangle contained in circle? true
 
 
 __Exercise 2 sample runs:__
