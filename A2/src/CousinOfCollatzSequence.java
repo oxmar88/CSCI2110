@@ -1,3 +1,6 @@
+// Omar Elsayed
+// B00993452
+
 import java.util.*;
 
 public class CousinOfCollatzSequence {
@@ -42,7 +45,7 @@ public class CousinOfCollatzSequence {
                 length++;
             }
 
-            if (length > longestLen){ // updating current number in sequence and new longest length if its applicable
+           if (length > longestLen){ // updating current number in sequence and new longest length if its applicable
                 longestLen = length;
                 longestStart = i;
             }

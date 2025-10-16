@@ -1,3 +1,6 @@
+// Omar Elsayed
+// B00993452
+
 import java.util.*;
 
 public class CollatzSequence {
@@ -37,7 +40,7 @@ public class CollatzSequence {
                 length++;
             }
 
-            if (length > longestLen){
+            if (length > longestLen){ // updating current number in sequence and new longest length if its applicable
                 longestLen = length;
                 longestStart = i;
             }
