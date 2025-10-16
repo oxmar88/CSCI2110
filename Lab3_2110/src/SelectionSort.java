@@ -2,9 +2,8 @@
 // B00993452
 
 import java.util.*;
-import java.util.Random;
 
-public class BubbleSort {
+public class SelectionSort {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -24,20 +23,21 @@ public class BubbleSort {
 
         long executionTime = endTime - startTime;
 
-        System.out.print("Bubble sort of list where n (size) = " + n + " took " + executionTime + " ms");
+        System.out.print("Selection sort of list where n (size) = " + n + " took " + executionTime + " ms");
     }
 
-    public static int[] sort (int[] array){
-
-        for (int k = 1 ; k < array.length ; k++){
-            for (int i = 0 ; i < (array.length - k); i++){
-                if (array[i] > array[i+1]) { // if element bigger than the element after it swap them around
-                    // swapping the elements with the one ahead of it
-                    int temp = array[i];
-                    array[i] = array[i + 1];
-                    array[i + 1] = temp;
+    public static int[] sort(int[] array){
+        int n = array.length;
+        for(int i = 0; i<= n-1; i++){
+            int minIndex = i; // assigning current index has the smallest element
+            for(int j = i+1 ; j<= n-1 ; j++){ // inner loops finds index of smallest element in unsorted list
+                if(array[j] < array[minIndex]){
+                    minIndex = j;
                 }
             }
+            int temp = array[i]; // swapping the found smallest element with the first unsorted element
+            array[i] = array[minIndex];
+            array[minIndex] = temp;
         }
         return array;
     }
