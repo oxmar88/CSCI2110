@@ -1,0 +1,121 @@
+------Exercise 2 sample run :------
+
+Enter strings to PUSH (one per line). Press Enter on an empty line to finish:
+Sunday
+Monday
+Tuesday
+
+Stack<String> size: 3
+Peek<String>: Tuesday
+Popping all String items (LIFO):
+Tuesday Monday Sunday
+Stack<String> empty? true
+
+Enter integers to PUSH (one per line). Press Enter on an empty line to finish:
+1
+2
+3
+4
+5
+
+Stack<Integer> size: 5
+Peek<Integer>: 5
+Popping all Integer items (LIFO):
+5 4 3 2 1
+Stack<Integer> empty? true
+
+Process finished with exit code 0
+
+
+------Exercise 3 sample run :------
+
+Enter strings to ENQUEUE (one per line). Blank line to finish:
+Sunday
+Monday
+Tuesday
+
+Queue<String> size: 3
+Peek<String>: Sunday
+Queue: Sunday Monday Tuesday
+Enter a String to search with positionOf:
+Monday
+String Monday found in position 1
+Enter a String to remove (first occurrence):
+Monday
+Queue: Sunday Tuesday
+Dequeuing twice:
+Sunday
+Tuesday
+Queue:
+Queue<String> empty? true
+
+Enter integers to ENQUEUE (one per line). Blank line to finish:
+1
+2
+3
+4
+5
+3
+
+Queue<Integer> size: 6
+Peek<Integer>: 1
+Queue: 1 2 3 4 5 3
+Enter an integer to search with positionOf:
+5
+Integer 5 found in position 4
+Enter an integer to remove (first occurrence):
+3
+Queue: 1 2 4 5 3
+Dequeuing twice:
+1
+2
+Queue: 4 5 3
+Queue<Integer> empty? false
+
+Process finished with exit code 0
+
+
+------Exercise 4 sample run :------
+
+Print Queue Demo (type HELP for commands)
+Commands:
+  ADD owner jobId
+  LIST
+  RM jobId
+  RMALL owner
+  HELP
+  QUIT
+list
+Queue:
+add srini 100
+Added job 100 by srini
+add alice 200
+Added job 200 by alice
+add bob 300
+Added job 300 by bob
+list
+Queue: srini:100 alice:200 bob:300
+rm 100
+Removed active job 100
+list
+Queue: alice:200 bob:300
+add bob 400
+Added job 400 by bob
+help
+Commands:
+  ADD owner jobId
+  LIST
+  RM jobId
+  RMALL owner
+  HELP
+  QUIT
+rmall bob
+Removed 2 job(s) owned by bob
+list
+Queue: alice:200
+quit
+BYE
+
+Process finished with exit code 0
+
+
