@@ -1,0 +1,75 @@
+SAMPLE RUNS LAB 5:
+
+_____SAMPLE 1_____
+
+Enter Pokemon names, one on each line
+Enter quit to end
+Charmander
+Pikachu
+Squirtle
+Bulbasaur
+Eevee
+quit
+
+Here is the linked list:
+Eevee--> Bulbasaur--> Squirtle--> Pikachu--> Charmander-->
+
+Here is the linked list with even-numbered indices:
+Eevee Squirtle Charmander
+
+Here is the linked list with odd-numbered indices:
+Bulbasaur Pikachu
+
+Here is the reversed linked list:
+Charmander--> Pikachu--> Squirtle--> Bulbasaur--> Eevee-->
+
+After removing the middle node:
+Eevee--> Bulbasaur--> Pikachu--> Charmander-->
+
+
+_____SAMPLE 2_____
+
+Here is the linked list:
+Mew--> Onix--> Gengar--> Snorlax-->
+
+Here is the linked list with even-numbered indices:
+Mew Gengar
+
+Here is the linked list with odd-numbered indices:
+Onix Snorlax
+
+Here is the reversed linked list:
+Snorlax--> Gengar--> Onix--> Mew-->
+
+After removing the middle node:
+Mew--> Gengar--> Snorlax-->
+
+Process finished with exit code 0
+
+
+_____SAMPLE 3_____
+
+Enter Pokemon names, one on each line
+Enter quit to end
+Articuno
+Zapdos
+Moltres
+Lugia
+quit
+
+Here is the linked list:
+Lugia--> Moltres--> Zapdos--> Articuno-->
+
+Here is the linked list with even-numbered indices:
+Lugia Zapdos
+
+Here is the linked list with odd-numbered indices:
+Moltres Articuno
+
+Here is the reversed linked list:
+Articuno--> Zapdos--> Moltres--> Lugia-->
+
+After removing the middle node:
+Lugia--> Zapdos--> Articuno-->
+
+Process finished with exit code 0

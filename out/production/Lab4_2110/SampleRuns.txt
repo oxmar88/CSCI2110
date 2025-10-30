@@ -1,5 +1,3 @@
-// Omar Elsayed B00993452 lab4
-
 ------Exercise 2 sample run :------
 
 Enter strings to PUSH (one per line). Press Enter on an empty line to finish:
@@ -76,48 +74,5 @@ Queue<Integer> empty? false
 
 Process finished with exit code 0
 
-
-------Exercise 4 sample run :------
-
-Print Queue Demo (type HELP for commands)
-Commands:
-  ADD owner jobId
-  LIST
-  RM jobId
-  RMALL owner
-  HELP
-  QUIT
-list
-Queue:
-add srini 100
-Added job 100 by srini
-add alice 200
-Added job 200 by alice
-add bob 300
-Added job 300 by bob
-list
-Queue: srini:100 alice:200 bob:300
-rm 100
-Removed active job 100
-list
-Queue: alice:200 bob:300
-add bob 400
-Added job 400 by bob
-help
-Commands:
-  ADD owner jobId
-  LIST
-  RM jobId
-  RMALL owner
-  HELP
-  QUIT
-rmall bob
-Removed 2 job(s) owned by bob
-list
-Queue: alice:200
-quit
-BYE
-
-Process finished with exit code 0
 
 

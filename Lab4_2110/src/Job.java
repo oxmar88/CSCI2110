@@ -1,4 +1,4 @@
-// Omar Elsayed B00993452 lab4// Omar Elsayed B00993452 lab4
+// Omar Elsayed B00993452 lab4
 
 public class Job {
     private String owner;
