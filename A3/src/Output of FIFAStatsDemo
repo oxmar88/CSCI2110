@@ -1,0 +1,86 @@
+C:\Users\omarc\.jdks\openjdk-22.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=56499:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\omarc\Desktop\GITHUB\out\production\A3 FIFAStatsDemo
+ Data has been successfully loaded from UNI second year\CSCI2110\A3\src\fifa-world-cup-2022-UTC.txt
+
+--------------------------------------------------
+a) Display all teams in a given group:
+Teams in Group A: Senegal, Ecuador, Qatar, Netherlands
+
+--------------------------------------------------
+b) Number of matches played by a team:
+Matches played by France: 7
+
+--------------------------------------------------
+c) Team with the highest total goals:
+Team with highest total goals: France (16)
+
+--------------------------------------------------
+d) Team with the lowest total goals:
+Lowest scoring team: Qatar (1 goals)
+
+--------------------------------------------------
+e) All matches played at a given stadium:
+Matches played at Lusail Stadium:
+Argentina 3 - 3 France (Finals, Lusail Stadium, 18/12/2022 15:00)
+Argentina 3 - 0 Croatia (Semi Finals, Lusail Stadium, 13/12/2022 19:00)
+Netherlands 2 - 2 Argentina (Quarter Finals, Lusail Stadium, 09/12/2022 19:00)
+Portugal 6 - 1 Switzerland (Round of 16, Lusail Stadium, 06/12/2022 19:00)
+Cameroon 1 - 0 Brazil (3, Lusail Stadium, 02/12/2022 19:00)
+Saudi Arabia 1 - 2 Mexico (3, Lusail Stadium, 30/11/2022 19:00)
+Portugal 2 - 0 Uruguay (2, Lusail Stadium, 28/11/2022 19:00)
+Argentina 2 - 0 Mexico (2, Lusail Stadium, 26/11/2022 19:00)
+Brazil 2 - 0 Serbia (1, Lusail Stadium, 24/11/2022 19:00)
+Argentina 1 - 2 Saudi Arabia (1, Lusail Stadium, 22/11/2022 10:00)
+
+--------------------------------------------------
+f) All matches played on a given date:
+Matches played on 18/12/2022:
+Argentina 3 - 3 France (Finals, Lusail Stadium, 18/12/2022 15:00)
+
+--------------------------------------------------
+g) All matches played by a given team:
+Matches played by Morocco:
+Croatia vs. Morocco 2–1
+France vs. Morocco 2–0
+Morocco vs. Portugal 1–0
+Morocco vs. Spain 0–0
+Canada vs. Morocco 1–2
+Belgium vs. Morocco 0–2
+Morocco vs. Croatia 0–0
+
+--------------------------------------------------
+h) Teams ranked by performance:
+Teams ranked by performance (most wins to least wins):
+1. France
+2. Argentina
+3. Brazil
+4. Netherlands
+5. Portugal
+6. England
+7. Morocco
+8. Australia
+9. Senegal
+10. Japan
+11. Switzerland
+12. Croatia
+13. Ecuador
+14. Iran
+15. Tunisia
+16. Mexico
+17. Saudi Arabia
+18. Belgium
+19. Germany
+20. Costa Rica
+21. Uruguay
+22. Ghana
+23. Cameroon
+24. USA
+25. Poland
+26. Korea Republic
+27. Spain
+28. Qatar
+29. Wales
+30. Denmark
+31. Canada
+32. Serbia
+
+Process finished with exit code 0
