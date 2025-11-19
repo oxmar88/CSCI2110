@@ -100,7 +100,7 @@ public class OrderedList<T extends Comparable<T>>
 		int pos = binarySearch(item);
 		if (pos>=0)
 		{
-			System.out.println("Item " + item + " already present");
+			//System.out.println("Item " + item + " already present");
 			return;
 		}
 		else

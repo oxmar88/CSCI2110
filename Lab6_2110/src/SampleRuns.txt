@@ -1,0 +1,115 @@
+// Omar Elsayed B00993452
+
+----Exercise 1:----
+
+Factorial of a number
+Enter a positive integer: 5
+The factorial of 5 is 120
+
+Fibonacci numbers
+The first 20 numbers in the Fibonacci series are
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181
+
+Power of a number
+Enter a positive integer x: 4
+Enter another positive integer: 3
+4 to the power of 3 is 64
+
+----Exercise 2:----
+
+Enter a positive integer: 5
+5 4 3 2 1 BlastOff!
+
+Enter a positive integer: 11
+11 10 9 8 7 6 5 4 3 2 1 BlastOff!
+
+Enter a positive integer: 25
+25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 BlastOff!
+
+----Exercise 3:----
+
+Enter a positive integer: 9
+9 7 5 3 1 BlastOff!
+
+Enter a positive integer: 8
+8 6 4 2 BlastOff!
+
+Enter a positive integer: 64
+64 62 60 58 56 54 52 50 48 46 44 42 40 38 36 34 32 30 28 26 24 22 20 18 16 14 12 10 8 6 4 2 BlastOff!
+
+---Exercise 4:---
+
+Enter integer n: 5
+Enter integer m: 6
+First 6 multiples of the number 5:
+5, 10, 15, 20, 25, 30
+
+Enter integer n: 10
+Enter integer m: 4
+First 4 multiples of the number 10:
+10, 20, 30, 40
+
+Enter integer n: 21
+Enter integer m: 6
+First 6 multiples of the number 21:
+21, 42, 63, 84, 105, 126
+
+----Exercise5:----
+
+Enter an integer: 89893
+The number entered printed vertically:
+8
+9
+8
+9
+3
+
+Enter an integer: 373273732
+The number entered printed vertically:
+3
+7
+3
+2
+7
+3
+7
+3
+2
+
+Enter an integer: 38
+The number entered printed vertically:
+3
+8
+
+----Exercise 6:----
+
+Enter a positive integer n: 8
+Sum of squares from 1 to 8 is 204
+
+Enter a positive integer n: 11
+Sum of squares from 1 to 11 is 506
+
+Enter a positive integer n: 124
+Sum of squares from 1 to 124 is 643250
+
+----Exercise 7:----
+
+Enter a string: thislabislong
+Reversed string: gnolsibalsiht
+
+Enter a string: mango
+Reversed string: ognam
+
+Enter a string: baulbasaur
+Reversed string: ruasabluab
+
+----Exercise 8:----
+
+Enter number of steps: 8
+the Number of ways to climb 8 steps: 81
+
+Enter number of steps: 11
+the Number of ways to climb 11 steps: 504
+
+Enter number of steps: 30
+the Number of ways to climb 30 steps: 53798080

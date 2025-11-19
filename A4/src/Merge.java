@@ -159,12 +159,11 @@ public class Merge {
 
             // Used helper method written below to Write to and create files automatically on each run
             // For following files make sure when running have the correct file path on machine for each file
-
             writeToFile("UNI second year\\CSCI2110\\A4\\src\\merged.txt", mergedList);
             writeToFile("UNI second year\\CSCI2110\\A4\\src\\common.txt", commonList);
             writeToFile("UNI second year\\CSCI2110\\A4\\src\\difference.txt", differenceList);
 
-            System.out.println("Files created check the desired outputs in mergedList.txt,comm");
+            System.out.println("Files created check the desired outputs in mergedList.txt, common.txt and difference.txt");
 
         } catch (Exception e) {
             System.out.println("RandomNames.txt read incorrectly or not read");
