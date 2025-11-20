@@ -81,7 +81,6 @@ public class Merge {
 
         while(f1 < list1.size() && f2 < list2.size()) {
 
-
             T item1 = list1.get(f1);
             T item2 = list2.get(f2);
 
@@ -172,7 +171,8 @@ public class Merge {
 
     // Helper method created to write to and create files
     public static <T extends Comparable<T>> void writeToFile(String fileName, OrderedList<T> list) throws Exception {
-        PrintWriter printer = new PrintWriter(new FileWriter(fileName));
+        FileWriter fileWriter = new FileWriter(fileName);
+        PrintWriter printer = new PrintWriter(fileWriter);
         for (int i = 0; i < list.size(); i++) {
             printer.println(list.get(i));
         }
