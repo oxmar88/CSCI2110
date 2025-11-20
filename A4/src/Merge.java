@@ -5,6 +5,7 @@ import java.util.*;
 
 public class Merge {
 
+    // method to merge content of two lists into a third new one
     public static <T extends Comparable<T>> OrderedList<T> merge (OrderedList<T> list1, OrderedList<T> list2){
         OrderedList<T> L3 = new OrderedList<>(); // intializing a 3rd empty list to return
 
@@ -48,7 +49,7 @@ public class Merge {
         return L3;
     }
 
-
+    // method to create and return a list with the common content of two provided lists
     public static <T extends Comparable<T>> OrderedList<T> common (OrderedList<T> list1, OrderedList<T> list2) {
         OrderedList<T> L3 = new OrderedList<>();
         int f1 = 0;
@@ -73,7 +74,7 @@ public class Merge {
         return L3;
     }
 
-
+    // method to create and return a list that contains items which are present in one list but not the other
     public static <T extends Comparable<T>> OrderedList<T> difference (OrderedList<T> list1, OrderedList<T> list2){
         OrderedList<T> L3 = new OrderedList<>();
         int f1 = 0;
@@ -103,6 +104,7 @@ public class Merge {
 
         return L3;
     }
+
 
     public static void main (String args[]){
         Scanner scanner = new Scanner (System.in);
@@ -157,7 +159,7 @@ public class Merge {
             OrderedList<String> differenceList = difference(list1, list2);
 
             // Used helper method written below to Write to and create files automatically on each run
-            // For following files make sure when running have the correct file path on machine for each file
+            // For following files make sure when running have the correct file path on machine for each file (this was my path)
             writeToFile("UNI second year\\CSCI2110\\A4\\src\\merged.txt", mergedList);
             writeToFile("UNI second year\\CSCI2110\\A4\\src\\common.txt", commonList);
             writeToFile("UNI second year\\CSCI2110\\A4\\src\\difference.txt", differenceList);
